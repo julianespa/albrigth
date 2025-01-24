@@ -8,6 +8,6 @@ Thank you to all the contributors who have helped make this project better!
 ## Contributors
 - [SelimAksen](https://github.com/SelimAksen)
 - [NihanErdogan](https://github.com/Nihan233630)
-- [Contributor 3](https://github.com/contributor3)
+- [Lucas Miranda](https://github.com/LucasMBO)
 
 Want to contribute? open a pull request!
