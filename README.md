@@ -1,6 +1,8 @@
 # Contributors
 
 Thank you to all the contributors who have helped make this project better!
+Collaborative Programming While Protecting Intellectual Property with GitHub!
+
 
 ## Maintainers
 - [Julian Espasandin](https://github.com/julianespa) - Project Lead
