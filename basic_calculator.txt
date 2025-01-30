@@ -1,34 +1,48 @@
-# ADD RELEVANT COMMENTS
 # Function for Addition
 def add(a, b):
+    """Returns the sum of two numbers."""
     return a + b
 
 # Function for Subtraction
 def subtract(a, b):
+    """Returns the difference when the second number is subtracted from the first."""
     return a - b
 
 # Function for Multiplication
 def multiply(a, b):
+    """Returns the product of two numbers."""
     return a * b
 
 # Function for Division (with error handling for division by zero)
 def divide(a, b):
+    """Returns the result of dividing the first number by the second number.
+       Returns an error message if division by zero is attempted."""
     if b != 0:
         return a / b
     else:
         return "Error: Division by zero"
 
+# Function for Modulus
+def modulus(a, b):
+    """Returns the remainder when the first number is divided by the second number."""
+    if b != 0:
+        return a % b
+    else:
+        return "Error: Division by zero"
+
 # Main Calculator Function (handles user interaction and calls the appropriate operations)
 def calculator():
+    """Displays the operation menu and performs the selected calculation."""
     print("Select an operation:")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
+    print("5. Modulus")
     
     option = input("Enter the number of the desired operation: ")
     
-    if option in ('1', '2', '3', '4'):
+    if option in ('1', '2', '3', '4', '5'):
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
         
@@ -40,9 +54,10 @@ def calculator():
             print("Result:", multiply(num1, num2))
         elif option == '4':
             print("Result:", divide(num1, num2))
+        elif option == '5':
+            print("Result:", modulus(num1, num2))
     else:
         print("Invalid option")
 
 # Run the calculator
 calculator()
- 
