@@ -1,0 +1,10 @@
+def square(num):
+    """Function to calculate the square of a number."""
+    return num ** 2
+
+# Ask the user to enter a number
+number = float(input("Enter a number to find its square: "))
+
+# Calculate and display the result
+result = square(number)
+print(f"The square of {number} is {result}")
