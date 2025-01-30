@@ -9,6 +9,6 @@ Thank you to all the contributors who have helped make this project better!
 - [SelimAksen](https://github.com/SelimAksen)
 - [NihanErdogan](https://github.com/Nihan233630)
 - [Lucas Miranda](https://github.com/LucasMBO)
-- [contributor 4](https://github.com/#)
+- [DlanorRayLoon](https://github.com/DlanorRayLoon)
   
 Want to contribute? open a pull request!
